@@ -8,7 +8,7 @@ sp_rename 'WeeklyEarning.DGUID', 'GEO_ID'
 sp_rename 'WeeklyEarning.North American Industry Classification System (NAICS)', 'INDUSTRY'
 sp_rename 'WeeklyEarning.Type of employees', 'EMPLOYEE_TYPE'
 
---Breaking out Industry into Industry and Industry and Industry Code
+--Breaking out Industry into Industry Name and Industry Code
 Select INDUSTRY from PortfolioProject..WeeklyEarning
 
 Alter Table PortfolioProject..WeeklyEarning
